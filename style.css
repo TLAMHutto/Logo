@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+}
+
+.header {
+    background-color: rgb(255, 110, 25);
+    z-index: 0;
+    height: 20px;
+    border: 2px solid rgb(247, 244, 244);
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    position: relative;
+    top: 80px;
+    left: -150px;
+    width: 100px;
+    height: 50px;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 0s;
+    animation: slide 0.5s forwards;
+    animation-delay: 1.5s;
+    border-radius: 30%;
+    transition: transform .2s;
+}
+#logo:hover {
+    transform: scale(1.7);
+}
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 380px; }
+}
+
+  
+
+
