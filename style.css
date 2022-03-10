@@ -1,7 +1,16 @@
 body {
     background-color: black;
 }
-
+.player {
+    position: relative;
+    max-width: 250px;
+    max-height: 200px;
+    top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 .header {
     background-color: rgb(255, 110, 25);
     z-index: 0;
