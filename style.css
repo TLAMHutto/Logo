@@ -4,7 +4,9 @@ body {
 .player {
     position: relative;
     max-width: 250px;
+    min-width: 250px;
     max-height: 200px;
+    min-height: 200px;
     top: 150px;
     display: block;
     margin-left: auto;
@@ -41,7 +43,7 @@ body {
 }
 
 @keyframes slide {
-    100% { left: 330px; }
+    100% { left: 650px; }
 }
 
   
